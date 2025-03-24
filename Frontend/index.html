@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Регистрация и вход</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form id="register-form">
+          <h2>Регистрация</h2>
+          <input
+            type="text"
+            id="register-username"
+            placeholder="Имя пользователя"
+            required
+          />
+          <input
+            type="password"
+            id="register-password"
+            placeholder="Пароль"
+            required
+          />
+          <button type="submit">Зарегистрироваться</button>
+          <p id="register-message"></p>
+        </form>
+      </div>
+      <div class="form-container">
+        <form id="login-form">
+          <h2>Вход</h2>
+          <input
+            type="text"
+            id="login-username"
+            placeholder="Имя пользователя"
+            required
+          />
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Пароль"
+            required
+          />
+          <button type="submit">Войти</button>
+          <p id="login-message"></p>
+        </form>
+      </div>
+    </div>
+    <div class="microsoft-button-container">
+      <button id="microsoft-button">Постучаться в офис Microsoft</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

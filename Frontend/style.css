@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6e6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.form-container {
+  background: #ffcccc;
+  padding: 20px;
+  border: 1px solid #ff6666;
+  border-radius: 8px;
+  width: 300px;
+}
+
+form h2 {
+  text-align: center;
+  color: #990000;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ff6666;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e60000;
+}
+
+.microsoft-button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.microsoft-button-container button {
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.microsoft-button-container button:hover {
+  background-color: #e60000;
+}
